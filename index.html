@@ -2,10 +2,37 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Team Ajaxs Website</title>
+    <title>Ajax's Webpage</title>
   </head>
   <body>
     <h1>Team Ajax</h1>
     <p>Example Text</p>
+<h2>E-mail Ajax Today!</h2>
+           	
+<form action="MAILTO:ajax@gmail.com" method="post" enctype="text/plain">
+<fieldset>
+<legend><strong></strong></legend><br />
+Name:<br>
+<input type="text" name="name" value="name"><br>
+E-mail:<br>
+<input type="text" name="mail" value="e-mail"><br>
+Message:<br>
+<textarea name="message" value="message">Enter some funky text here...</textarea><br>
+
+
+
+</fieldset>
+
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+<footer>
+		<p><script>
+            var today = new Date();
+            document.write( "&copy;&nbsp;" );
+            document.write( today.getFullYear() );
+            document.write( ", Ajax Devs, Asheville, NC 28711" )
+        </script></p>
+	</footer>
   </body>
 </html>
